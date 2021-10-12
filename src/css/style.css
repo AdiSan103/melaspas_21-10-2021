@@ -1,0 +1,183 @@
+.vh-100-2 {
+    min-height: 100vh;
+}
+.color1 {
+    color: #AA6D1E;
+}
+.color2 {
+    color: #333333;
+}
+.color3 {
+    color: #DAA520;
+}
+.color4 {
+    background: black;
+}
+
+/* laoding */
+body {
+    overflow-x: hidden;
+}
+/* .img-loading-desc {
+    max-width: 150px;
+} */
+.loadingIcon2 {
+    background: url('../img/eb7a4f72a711e140225ab6d44659175c.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 9999;
+}
+.loadingIcon2.true {
+    transition: 1.25s;
+    transform: translateY(-100%);
+}
+.bg-loadingIcon2  {
+    background: linear-gradient(rgba(102, 102, 102, 0.562),  rgb(3, 3, 3));
+}
+.desc-text {
+    z-index: 999;
+}
+.buttonClick {
+    cursor: pointer;
+    transition: 0.25s;
+    color: white;
+    background-color: rgb(145, 83, 25);
+    font-size: 25px;
+}
+img.img-loading-top {
+    margin-top: -500px;
+}
+img.img-loading-top-2 {
+    margin-top: -600px;
+}
+
+button.buttonClick:focus {
+    transform: scale(0.95);
+}
+
+/* audio-control */
+.audio-control {
+    height: 50px;
+    width: 50px;
+    background: orange;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.25s;
+    border: none;
+    color: white;
+}
+.audio-control:hover{
+    transform: scale(0.9);
+    background: rgb(223, 135, 3);
+}
+
+/* banner */
+.banner {
+    background: url('../img/rumah-gubuk-jaman-dulu.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-main {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    margin-top: 40vh;
+}
+.banner-overlay {
+    background: rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+}
+@media (max-width: 800px) {
+    .banner-main {
+        margin-top: 55vh;
+    }
+}
+.banner-bottom svg{
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+.svg-banner {
+    margin-bottom: -10px;
+}
+
+/* content1 */
+.hero-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+.hero-text {
+    min-height: 50vh;
+    text-align: center;
+}
+
+/* content2 */
+.content2 .col-part1{
+    position: relative;
+    margin-bottom: 40px;
+}
+.content2 .box {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: orange;
+    top: 20px;
+    left: 50px;
+    z-index: -2;
+}
+
+/* content3 */
+.content3 .deskripsi  {
+    min-height: 70vh;
+}
+
+/* content7 */
+.content7-main-content {
+    max-width: 800px;
+}
+
+.content7-main-content  .col .icon-svg{
+    background: #AA6D1E;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+/* content3 */
+.googlemap{
+    width: 100%;
+}
+
+.map-wrapper{
+    border: 2px solid red;
+}
+
+.leftside, .rightside{
+    width: 100%;
+}
+
+/* @media screen and (min-widht:768px) {
+    .leftside, .rightside{
+        height: 100vh;
+    }
+} */
+
+.pertengahan{
+    text-align: center;
+}
+
+footer{
+    margin-bottom: -10px;
+}
