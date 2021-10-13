@@ -13,11 +13,14 @@
 .color4 {
     background: black;
 }
-
-/* laoding */
+* {
+    scroll-behavior: smooth;
+}
 body {
     overflow-x: hidden;
 }
+/* laoding */
+
 /* .img-loading-desc {
     max-width: 150px;
 } */

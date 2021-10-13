@@ -60,7 +60,7 @@ function system2() {
             remove('.content1 .hero-text', 'toUp');
         }
 
-        if(thisScroll > document.getElementsByClassName('content2')[0].offsetTop - 200) {
+        if(thisScroll > document.getElementsByClassName('content2')[0].offsetTop - 300) {
             remove('.col-part1 .slider', 'toLeft');
             remove('.col-part2', 'toRight');
             setTimeout(() => {
